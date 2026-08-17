@@ -1,0 +1,63 @@
+# .gitignore для Telegram News Bot
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Logs
+logs/*.log
+logs/*.bak
+
+# Session files (Telegram)
+*.session
+*.session-journal
+
+# API Keys and Secrets (IMPORTANT!)
+config_local.py
+.secrets
+.env
+*.key
+
+# Images (optional - uncomment if you want to save generated images)
+# images/*.png
+# images/*.jpg
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temporary files
+tmp/
+temp/
+*.tmp
