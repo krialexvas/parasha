@@ -36,6 +36,7 @@ OUTPUT_DIR = os.getenv('OUTPUT_DIR', str(BASE_DIR / 'output'))
 # Parsing Limits
 MAX_NEWS_PER_RUN = int(os.getenv('MAX_NEWS_PER_RUN', '20'))
 REQUEST_TIMEOUT = int(os.getenv('REQUEST_TIMEOUT', '30'))
+RETRY_ATTEMPTS = int(os.getenv('RETRY_ATTEMPTS', '3'))  # Количество попыток при ошибке сети
 
 # Ensure output directory exists
 Path(OUTPUT_DIR).mkdir(parents=True, exist_ok=True)
